@@ -11,3 +11,4 @@
 
 ;; Other stuff
 (live-load-config-file "magit-conf.el")
+(live-load-config-file "autopair-conf.el")
