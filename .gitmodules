@@ -2,3 +2,7 @@
 	path = lib/magit
 	url = https://github.com/magit/magit
 	branch = 1.2.0
+[submodule "lib/autopair"]
+	path = lib/autopair
+	url = https://github.com/capitaomorte/autopair
+	branch = master
