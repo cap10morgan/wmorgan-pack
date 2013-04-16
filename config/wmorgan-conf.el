@@ -3,3 +3,6 @@
 
 ;; turn on global auto-revert
 (global-auto-revert-mode t)
+
+;; start Emacs server
+(server-start)
