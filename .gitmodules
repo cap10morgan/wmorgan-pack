@@ -1,7 +1,6 @@
 [submodule "lib/magit"]
 	path = lib/magit
 	url = https://github.com/magit/magit
-	branch = 1.2.0
 [submodule "lib/autopair"]
 	path = lib/autopair
 	url = https://github.com/capitaomorte/autopair
@@ -13,4 +12,3 @@
 [submodule "lib/ruby-end"]
 	path = lib/ruby-end
 	url = https://github.com/rejeep/ruby-end
-	branch = v0.2.1
