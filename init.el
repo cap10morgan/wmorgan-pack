@@ -10,5 +10,4 @@
 (live-load-config-file "wmorgan-conf.el")
 
 ;; Other stuff
-(live-load-config-file "magit-conf.el")
 (live-load-config-file "midje-mode-conf.el")
