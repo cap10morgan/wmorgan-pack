@@ -11,3 +11,4 @@
 
 ;; Other stuff
 (live-load-config-file "midje-mode-conf.el")
+(live-load-config-file "go-mode-conf.el")
