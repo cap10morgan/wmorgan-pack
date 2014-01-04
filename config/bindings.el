@@ -11,3 +11,7 @@
     (comment-or-uncomment-region beg end)))
 
 (define-key global-map (kbd "s-/") 'comment-or-uncomment-region-or-line)
+
+;; paredit
+(define-key paredit-mode-map (kbd "M-[") 'paredit-wrap-square)
+(define-key paredit-mode-map (kbd "M-]") 'paredit-wrap-curly) ; should have been M-{, but that's taken
