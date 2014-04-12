@@ -16,3 +16,6 @@
 
 ;; save all on frame focus loss
 (add-hook 'focus-out-hook (lambda () (save-some-buffers t)))
+
+;; turn off yas-minor-mode in terms so tab-complete will work
+(add-hook 'term-mode-hook (lambda () (yas-minor-mode -1)))
