@@ -1,3 +1,6 @@
+;; turn on sRGB support
+(setq ns-use-srgb-colorspace t)
+
 ;; set default font
 (add-to-list 'default-frame-alist '(font . "Source Code Pro 14"))
 
