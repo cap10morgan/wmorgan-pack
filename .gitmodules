@@ -5,10 +5,6 @@
 	path = lib/autopair
 	url = https://github.com/capitaomorte/autopair
 	branch = master
-[submodule "lib/midje-mode"]
-	path = lib/midje-mode
-	url = https://github.com/dnaumov/midje-mode
-	branch = master
 [submodule "lib/ruby-end"]
 	path = lib/ruby-end
 	url = https://github.com/rejeep/ruby-end

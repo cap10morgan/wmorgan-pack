@@ -1,14 +1,14 @@
-;; turn on sRGB support
+;; Turn on SRGB support
 (setq ns-use-srgb-colorspace t)
 
-;; set default font
-(add-to-list 'default-frame-alist '(font . "Source Code Pro 14"))
+;; Set default font
+(add-to-list 'default-frame-alist '(font . "Inconsolata 16"))
 
-;; turn on global auto-revert
-(global-auto-revert-mode t)
-
-;; start Emacs server
+;; Run server
 (server-start)
+
+;; Turn on global auto-revert mode
+(global-auto-revert-mode t)
 
 ;; make window slightly translucent
 (set-frame-parameter (selected-frame) 'alpha '(95 95))
@@ -17,5 +17,12 @@
 ;; save all on frame focus loss
 (add-hook 'focus-out-hook (lambda () (save-some-buffers t)))
 
-;; turn off yas-minor-mode in terms so tab-complete will work
-(add-hook 'term-mode-hook (lambda () (yas-minor-mode -1)))
+;; highlight matching symbols
+(setq highlight-symbol-on-navigation-p t)
+
+;; set indentation to 2 spaces & other good things for several languages
+(setq sh-indentation 2
+      sh-basic-offset 2
+      js2-basic 2
+      js2-bounce-indent-p t
+      css-indent-offset 2)

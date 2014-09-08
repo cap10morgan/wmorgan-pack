@@ -15,3 +15,7 @@
 ;; paredit
 (define-key paredit-mode-map (kbd "M-[") 'paredit-wrap-square)
 (define-key paredit-mode-map (kbd "M-]") 'paredit-wrap-curly) ; should have been M-{, but that's taken
+
+;; change font size
+(define-key global-map (kbd "C-+") 'text-scale-increase)
+(define-key global-map (kbd "C--") 'text-scale-decrease)

@@ -1,14 +1,10 @@
 ;; User pack init file
 ;;
-;; User this file to initiate the pack configuration.
+;; Use this file to initiate the pack configuration.
 ;; See README for more information.
 
 ;; Load bindings config
 (live-load-config-file "bindings.el")
 
-;; Custom settings
+;; Load misc. startup desirables
 (live-load-config-file "wmorgan-conf.el")
-
-;; Other stuff
-(live-load-config-file "midje-mode-conf.el")
-(live-load-config-file "go-mode-conf.el")
